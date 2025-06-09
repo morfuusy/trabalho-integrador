@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bolsa FM - Página de Vendas</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 20px;
+      background-color: white;
+    }
+    .product-image {
+      width: 100%;
+      max-width: 500px;
+      height: auto;
+      margin-bottom: 20px;
+    }
+    h1 {
+      color: #333;
+    }
+    .price {
+      font-size: 28px;
+      color: #e60023;
+      margin: 15px 0;
+    }
+    .description {
+      font-size: 16px;
+      color: #555;
+    }
+    .highlights {
+      margin-top: 20px;
+    }
+    .highlights li {
+      margin-bottom: 10px;
+    }
+    .buy-button {
+      display: inline-block;
+      margin-top: 25px;
+      background-color: #e60023;
+      color: white;
+      padding: 12px 25px;
+      font-size: 16px;
+      border: none;
+      cursor: pointer;
+      text-decoration: none;
+      border-radius: 8px;
+    }
+    .buy-button:hover {
+      background-color: #c7001b;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="sua-imagem-aqui.jpeg" alt="Bolsa FM" class="product-image" />
+    
+    <h1>Bolsa FM - Estilo e Versatilidade</h1>
+    
+    <p class="price">R$ 249,90</p>
+    
+    <p class="description">
+      A Bolsa FM é a escolha perfeita para quem busca praticidade, estilo e organização em um só produto. Com design moderno, compartimentos funcionais e detalhes únicos, ela se adapta ao seu ritmo diário — seja para estudos, trabalho ou academia.
+    </p>
+
+    <ul class="highlights">
+      <li>✅ Design moderno e exclusivo</li>
+      <li>✅ Múltiplos compartimentos organizadores</li>
+      <li>✅ Material resistente e impermeável</li>
+      <li>✅ Ideal para uso urbano, escolar ou esportivo</li>
+      <li>✅ Disponível em várias cores</li>
+    </ul>
+
+    <a href="https://wa.me/seunumerodowhatsapp" class="buy-button" target="_blank">
+      Comprar Agora via WhatsApp
+    </a>
+  </div>
+</body>
+</html>
